@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+---
+---
+{% include navigation.html %}
 
-You can use the [editor on GitHub](https://github.com/TYKUHN2/TYKUHN2.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Home
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Welcome to my hub. You can find more information about me or this website [here](/about.html)
 
-### Markdown
+To find a list of my github projects [click here](/projects.html)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Otherwise... enjoy?
 
-```markdown
-Syntax highlighted code block
+## Blog
 
-# Header 1
-## Header 2
-### Header 3
+{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
+{% for yearMonth in postsByYearMonth %}
 
-- Bulleted
-- List
+### {{ yearMonth.name }}
 
-1. Numbered
-2. List
+    {% for post in yearMonth.items %}
 
-**Bold** and _Italic_ and `Code` text
+* [{{ post.title }}]({{ post.url }}) [{{ post.date | date: "%B %-d" }}] "{{ post.excerpt | strip_html| strip_newlines }}"
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TYKUHN2/TYKUHN2.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+    {% endfor %}
+{% endfor %}

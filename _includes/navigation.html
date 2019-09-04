@@ -1,0 +1,9 @@
+<nav>
+    {% for link in site.data.navigation %}
+        {% if page.url != link.link %}
+        <a href="{{ link.link }}">
+            {{link.name | capitalize}}
+        </a>
+        {% endif %}
+    {% endfor %}
+</nav>
