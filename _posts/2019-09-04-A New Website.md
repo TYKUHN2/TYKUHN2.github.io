@@ -1,7 +1,10 @@
 ---
 title: A New Website
 author: TYKUHN2
+categories: [website, dev, webdev, jekyll]
+tags: [jekyll, first, website, development]
 ---
+{% include navigation.html %}
 So I finally wrote a website. Why?
 
 * Jekyll made it easy
