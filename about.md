@@ -5,7 +5,7 @@ title: About
 
 ## About This Website
 
-This site exists to describe me, my projects, and give easier access to those projects. It also hosts some contact information for me.
+This site exists to describe me and my projects, as well as give easier access to those projects. It also hosts some contact information for me.
 
 This website was quickly coded in Jekyll using the Github Hacker theme for Jekyll.
 Jekyll actually makes web development far easier than pure HTML development.
