@@ -27,4 +27,4 @@ I often work alone in my projects. I do not do this intentionally. I am looking 
 
 ## Contact
 
-My email server is inaccessible until further notice. As a result, and to protect myself against spam, I do not currently have a contact email address.
+See my contact information on Github for the most up to date information.
