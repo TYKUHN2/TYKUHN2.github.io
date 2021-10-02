@@ -1,6 +1,6 @@
 ---
 ---
-# Privacy Policy
+# Privacy Policy (NKU-Bot)
 
 NKU-Bot stores no information of its users.
 
