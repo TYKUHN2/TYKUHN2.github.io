@@ -1,7 +1,5 @@
 ---
 ---
-{% include navigation.html %}
-
 # Privacy Policy
 
 NKU-Bot stores no information of its users.
