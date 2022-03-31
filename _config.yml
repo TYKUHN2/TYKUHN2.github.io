@@ -8,6 +8,8 @@ url: "https://tyknet.ml"
 twitter_username: tykuhn3
 github_username:  tykuhn2
 
+include: [".well-known"]
+
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
