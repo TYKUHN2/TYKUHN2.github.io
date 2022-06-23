@@ -1,6 +1,7 @@
 ---
 title: Domain Seizure
 author: TYKUHN2
+published: false
 categories: [website, rant, advisory]
 tags: [website, rant, advisory]
 ---

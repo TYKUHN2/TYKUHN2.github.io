@@ -10,6 +10,6 @@
 - name: GERTe in NodeJS
   link: /TYKUHN2/gerte-node
   short_desc: The GERTe client API written in NodeJS for easy and fast development/testing.
-- name: Minecraft Forge Java 11
+- name: Minecraft Forge Extended Support
   link: /TYKUHN2/MinecraftForge
   short_desc: A series of patches and modifications to Minecraft Forge for Java 11 compatibility.

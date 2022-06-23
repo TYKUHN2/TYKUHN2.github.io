@@ -8,7 +8,6 @@ Here you can find a variety of my, generally active, projects in a variety of la
 ## Github Projects
 
 {% for project in site.data.github %}
-
 * [{{ project.name }}](<https://github.com{{ project.link }}>) - {{ project.short_desc }}
 {% endfor %}
 
@@ -16,5 +15,3 @@ Here you can find a variety of my, generally active, projects in a variety of la
 
 Currently I have several projects intended solely for private use or which are not currently ready for public release.
 These are typically kept in Git repositories stored in Azure DevOps. As such not all of the projects may be currently or ever publicly announced.
-
-I do accept volunteers to help me with private projects but I may be somewhat more restrictive in who I accept.
