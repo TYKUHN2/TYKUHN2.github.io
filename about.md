@@ -25,4 +25,4 @@ I often work alone in my projects. I do not do this intentionally. I am looking 
 
 See my contact information on Github for the most up to date information.
 
-I also have a [Matrix server](https://matrix.tyknet.ml) (I am @tykuhn2:tyknet.ml)
+I also have a [Matrix server](https://matrix.tyknet.xyz) (I am @tykuhn2:tyknet.xyz)

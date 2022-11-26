@@ -1,10 +1,10 @@
 title: Generic Website 563
-email: contact@tyknet.ml
+email: contact@tyknet.xyz
 description: >-
   A personal website for TYKUHN2 designed specifically for hosting on Github Pages.
   A more dynamic website may be authored in the future. This one is simply static.
 baseurl: ""
-url: "https://tyknet.ml"
+url: "https://tyknet.xyz"
 twitter_username: tykuhn3
 github_username:  tykuhn2
 
@@ -15,11 +15,3 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "TYKUHN2"

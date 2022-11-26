@@ -16,15 +16,3 @@ Otherwise I do run an occasional blog for you to enjoy.
 {% include navigation.html %}
 {% endcapture %}
 {% assign nav=nav | strip_html | strip_newlines %}
-
-{% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%B %Y'"  %}
-{% for yearMonth in postsByYearMonth %}
-
-### {{ yearMonth.name }}
-
-    {% for post in yearMonth.items %}
-
-* [{{ post.title }}]({{ post.url }}) [{{ post.date | date: "%B %-d" }}] "{{ post.excerpt | strip_html | strip_newlines | remove: nav }}"
-
-    {% endfor %}
-{% endfor %}
